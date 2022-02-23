@@ -14,15 +14,6 @@
 ### ✨ [Demo](https://event-management-platform-ck.herokuapp.com/)
 
 ### Usage
-
-Request: “To View Welcome Page"
-Method: Enter https://event-management-platform-ck.herokuapp.com/ support into address bar.
-Response: The Welcome message page loads.
-
-Request: “To View List of Entries”
-Method: Enter https://event-management-platform-ck.herokuapp.com/events support into address bar.
-Response: The Event List page loads.
-
 Request[GET]: “To View Welcome Page"
 Method: Enter https://event-management-platform-ck.herokuapp.com/ support into address bar.
 Response: The Welcome message page loads.
