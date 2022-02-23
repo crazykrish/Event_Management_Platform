@@ -24,7 +24,7 @@
 * Minor dependencies can be found in the requirements.txt file on the root folder.
 
 ### Simple Model Design
-<img alt="Version" src="https://user-images.githubusercontent.com/36634269/155420916-1a6fa744-fb38-4cb9-9f4e-553db9970265.png" width=100px/>
+<img alt="Version" src="https://user-images.githubusercontent.com/36634269/155420916-1a6fa744-fb38-4cb9-9f4e-553db9970265.png" width=300px/>
 ### Usage
 **Request[GET]**: “To View Welcome Page"<br/>
 **Method**: Enter https://event-management-platform-ck.herokuapp.com/ support into address bar.<br/>
