@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> Simple Rest Api to built for Event Management Platform
+> Rest API built for Event Management Platform
 
 ### ✨ [Demo](https://event-management-platform-ck.herokuapp.com/)
 
