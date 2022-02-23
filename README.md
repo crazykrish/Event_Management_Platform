@@ -11,7 +11,7 @@
 
 > Rest API built for Event Management Platform
 
-### ✨ [Demo](https://event-management-platform-ck.herokuapp.com/)
+### ✨ [Demo-Click to View](https://event-management-platform-ck.herokuapp.com/)
 
 ## Technologies used
 
