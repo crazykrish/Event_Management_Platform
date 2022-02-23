@@ -13,6 +13,15 @@
 
 ### ✨ [Demo](https://event-management-platform-ck.herokuapp.com/)
 
+## Technologies used
+
+* **[Python3](https://www.python.org/downloads/)** - A programming language that lets you work more quickly (The universe loves speed!).
+* **[Flask](flask.pocoo.org/)** - A microframework for Python based on Werkzeug, Jinja 2 and good intentions
+* **[Virtualenv](https://virtualenv.pypa.io/en/stable/)** - A tool to create isolated virtual environments
+* **[PyCharm](https://www.jetbrains.com/pycharm/)** – The Python IDE for Professional Developers.
+* **[Gunicorn](https://gunicorn.org/)**-Python WSGI HTTP Server for UNIX. It's a pre-fork worker model.
+* Minor dependencies can be found in the requirements.txt file on the root folder.
+
 ### Usage
 **Request[GET]**: “To View Welcome Page"<br/>
 **Method**: Enter https://event-management-platform-ck.herokuapp.com/ support into address bar.<br/>
