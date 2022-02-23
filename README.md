@@ -36,7 +36,7 @@
 **Response**: The Event List page loads.<br/>
 
 **Request [GET]**: “To View paritcular event Data”<br/>
-**Method**: Enter https://event-management-platform-ck.herokuapp.com/events/0  into address bar, you can enter 0-8 numbers <br/>
+**Method**: Enter https://event-management-platform-ck.herokuapp.com/events/0  into address bar, you can enter **[0-8] numbers** <br/>
 **Response**: The Particular Event Data page loads.<br/>
 
 **Request [GET]**: “To View upcoming events Data”<br/>
