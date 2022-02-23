@@ -39,7 +39,6 @@ def get_upcoming_event():
     date2 = today.strftime('%m/%d/%y %H:%M:%S')
     a_key = "Start_time"
     values_of_key = [a_dict[a_key] for a_dict in event]
-    print(values_of_key)
 
     datetime2 = datetime.strptime('08/11/2019 05:45PM', '%m/%d/%Y %I:%M%p')
 
@@ -50,8 +49,6 @@ def get_upcoming_event():
         datetime2 = datetime.strptime(date2, '%m/%d/%y %H:%M:%S')
         if datetime1 > datetime2:
             upcoming_show_list_time.append(timevalues)
-            print("datetime2 is Greater")
-            print(upcoming_show_list_time)
 
     temp_event = event.copy();
 
@@ -60,9 +57,6 @@ def get_upcoming_event():
         for i in range(len(temp_event)):
             if temp_event[i]['Start_time'] == list_item:
                 upcoming_events_list.append(temp_event[i])
-                print(temp_event[i])
-
-    print(upcoming_events_list)
 
     return jsonify({'Upcoming Events':upcoming_events_list})
 
@@ -70,7 +64,6 @@ def get_upcoming_event():
 def get_live_event():
     a_key = "Start_time"
     values_of_key = [a_dict[a_key] for a_dict in event]
-    print(values_of_key)
 
     now = datetime.now()
     now_plus_10 = now + timedelta(minutes=10)
@@ -81,7 +74,6 @@ def get_live_event():
         if now <= datetime1 <= now_plus_10:
             live_events.append(timevalues)
 
-    print(live_events)
 
     temp_event = event.copy();
     live_events_list = []
@@ -89,7 +81,6 @@ def get_live_event():
         for i in range(len(temp_event)):
             if temp_event[i]['Start_time'] == list_item:
                 live_events_list.append(temp_event[i])
-                print(temp_event[i])
 
     return jsonify({'Upcoming Events':live_events_list})
 
