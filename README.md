@@ -20,6 +20,7 @@
 * **[Virtualenv](https://virtualenv.pypa.io/en/stable/)** - A tool to create isolated virtual environments
 * **[PyCharm](https://www.jetbrains.com/pycharm/)** – The Python IDE for Professional Developers.
 * **[Gunicorn](https://gunicorn.org/)**-Python WSGI HTTP Server for UNIX. It's a pre-fork worker model.
+* **[Heroku](https://dashboard.heroku.com/apps)**-This project is hosted on this cloud platform.
 * Minor dependencies can be found in the requirements.txt file on the root folder.
 
 ### Usage
