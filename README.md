@@ -23,6 +23,10 @@
 * **[Heroku](https://dashboard.heroku.com/apps)**-This project is hosted on this cloud platform.
 * Minor dependencies can be found in the requirements.txt file on the root folder.
 
+### We can use database also and slight modifications is reaquired by creating as class & post functions for it.
+* **[SQLAlchemy](https://www.sqlalchemy.org/)**- The Python SQL Toolkit and Object Relational Mapper
+* **[Marshmallow](https://marshmallow.readthedocs.io/en/stable/)**-simplified object serialization
+
 ### Usage
 **Request[GET]**: “To View Welcome Page"<br/>
 **Method**: Enter https://event-management-platform-ck.herokuapp.com/ support into address bar.<br/>
